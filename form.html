@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Video Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <style>
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: darkgray;
+      color: white;
+    }
+    </style>
+    
+</head>
+
+<body class="form-background" id="form-background">
+  <nav class="nav" id="nav">
+    <a href="/">Home</a>
+    <a href="/pages/collection-1.html">Overwatch 2</a>
+    <a href="/pages/collection-2.html">Software Engineering</a>
+    <a href="/pages/collection-3.html">Fun Youtubers</a>
+    <a href="/form.html">New Video</a>
+  </nav>
+
+  <header class="header" id="header">
+    <h1>Add New Video</h1>
+  </header>
+
+  <form autocomplete="on" action="/action_page.php" target="_target" method="post">
+    <div id="form">
+      <label for="videoTitle"><strong>Video Title</strong></label><br>
+        <input id="videoTitle" type="text" placeholder="input value"
+        required><br><br>
+    
+      <label for="description"><strong>Description</strong></label><br>
+        <textarea name="description" id="description" cols="30" rows="6" autocomplete="on" 
+        placeholder="Text area content"></textarea><br><br>
+    
+      <label for="video"><strong>Video</strong></label><br>
+        <input type="file" name="video" id="video"><br><br>
+    
+      <select name="choose_collection" id="choose_collection">
+        <option value="">Choose Collection</option>
+          <option value="action">Collection 1</option>
+          <option value="sci-fi">Collection 2</option>
+          <option value="drama">Collection 3</option>
+      </select><br><br>
+    
+      <input type="radio" name="privacy_setting" id="public" checked>
+      <label for="public">Public</label>
+    
+      <input type="radio" name="privacy_setting" id="private">
+      <label for="private">Private</label>
+      <br><br><br><br>
+    
+      <button class="upload-video" type="submit" value="Submit" id="upload-video">Upload Video</button>
+      <br><br><br><br>
+    </div>
+  </form>
+  
+
+  <hr>
+  <footer class="footer" id="footer">
+    <section id="social">
+      <h3>&copy: Copyright</h3>
+        <a href="https://twitter.com/CharloDeveloper" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a>
+        <!--<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+        <a href="https://www.linkedin.com/in/charles-best-zambrana-35a143151/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a>
+        <a href="https://github.com/CharlesBZ" class="icon brands alt fa-github"><span class="label">GitHub</span></a>
+    </section>
+  </footer>
+</body>
+</html>

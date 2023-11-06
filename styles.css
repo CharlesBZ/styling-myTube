@@ -1,0 +1,154 @@
+#index{
+  font-size: 18px;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  background:rgb(10, 6, 51) no-repeat center fixed;
+  background-size: 2000px; 
+}
+
+
+.header {
+  background: #222 url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/02/One-Punch-Man-A-Hero-Nobody-Knows-Saitama-Cover.jpg) no-repeat center fixed;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.nav {
+  color: aliceblue;
+  margin-left: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 0px 5px 0px 5px;
+}
+
+#overwatch {
+  font-size: 18px;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  background:#222 url(https://media.sketchfab.com/models/06ea0615198a4e57b5f90f1fa10066d3/thumbnails/e21d44155be347b783c054812721732c/1024x576.jpeg) no-repeat center fixed;
+  background-size: 2000px; 
+}
+
+#software-engineering {
+  font-size: 18px;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  background:#222 url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ftechcrunch.com%2F2016%2F05%2F10%2Fplease-dont-learn-to-code%2F&psig=AOvVaw2J9zlkKQ9-ZobIXD6FMrS4&ust=1672503274266000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIifuK7eofwCFQAAAAAdAAAAABAE) no-repeat center fixed;
+  background-size: 2000px; 
+}
+
+#fun-youtubers {
+  font-size: 18px;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  background:#222 url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.businessinsider.com%2Fmost-popular-youtubers-with-most-subscribers-2018-2&psig=AOvVaw1NMdr1Me3UgdpnVAkaNUXQ&ust=1672503336779000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNiwh8zeofwCFQAAAAAdAAAAABAE) no-repeat center fixed;
+  background-size: 2000px; 
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #fff;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+
+hr {
+  border-color: goldenrod;
+}
+
+.form-background {
+  background: rgb(10, 6, 51);
+}
+
+#form {
+  background: rgba(2, 2, 2, 0.8);
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  left: 21%;
+  padding: 30px 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700px;
+  font-family: "futura-pt", sans-serif;
+  margin-top: 20px;
+}
+
+#videoTitle, #description, #choose_collection {
+  padding: 8px;
+  border-radius: 5px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-size: 16px;
+}
+
+textarea {
+  padding: 5px, 10px;
+  margin: 15px, 0px, 15px, 0px;
+  width: 95%;
+}
+
+.public, .private {
+  margin: 0px 20px 10px 5px;
+}
+
+.upload-video {
+  background-color: green;
+  color: #fff;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0px 5px 0px;
+}
+
+#collections {
+  border-radius: 5px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+table {
+  width: 100%;
+}
+
+.iframe {
+  border-style: inset;
+  border-radius: 20px;
+  color: blue;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 600px;
+  font-size: 12px;
+  padding: 10px;
+  margin: 4px 10px 4px 10px;
+  width: 560;
+  height: 315;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding: 3px;
+  background-color: darkgray;
+  color: white;
+  border-radius: 10px;
+}
+
+#social {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
